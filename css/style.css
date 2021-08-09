@@ -1,0 +1,78 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #e5e5e5;
+}
+
+.page {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+.page-header {
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.nav .nav-logo {
+  color: #000000;
+}
+
+/* Site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Contacts */
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero .hero-title {
+  color: #ffffff;
+}
+
+/* Section */
+.section .section-title {
+  color: var(--title-text-color);
+}
+
+/* Phylosophy */
+.philosophy-list .title {
+  color: var(--title-text-color);
+}
+
+/* Team */
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer .footer-address {
+  color: #ffffff;
+}
+.footer .footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .footer-mail:hover,
+.footer .footer-mail:focus {
+  color: var(--accent-color);
+}
+.footer .footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .footer-tel:hover,
+.footer .footer-tel:focus {
+  color: var(--accent-color);
+}

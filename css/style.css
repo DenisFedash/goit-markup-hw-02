@@ -29,6 +29,9 @@
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 /* Contacts */
 .contacts .link:hover,
 .contacts .link:focus {
@@ -39,10 +42,16 @@
 .hero .hero-title {
   color: #ffffff;
 }
-
+.button-primary {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
 /* Section */
 .section .section-title {
   color: var(--title-text-color);
+}
+.section-team {
+  background-color: #f5f4fa;
 }
 
 /* Phylosophy */
@@ -75,4 +84,17 @@
 .footer .footer-tel:hover,
 .footer .footer-tel:focus {
   color: var(--accent-color);
+}
+
+/* Portfolio */
+
+.pointer {
+  cursor: pointer;
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.pointer:hover,
+.pointer:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }

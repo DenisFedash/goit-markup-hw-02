@@ -88,13 +88,13 @@
 
 /* Portfolio */
 
-.pointer {
+.buttons {
   cursor: pointer;
   background-color: #f5f4fa;
   color: #212121;
 }
-.pointer:hover,
-.pointer:focus {
+.buttons:hover,
+.buttons:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }

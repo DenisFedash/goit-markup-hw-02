@@ -34,7 +34,7 @@
   color: #000000;
 
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -93,7 +93,7 @@
   background-color: var(--accent-color);
   color: #ffffff;
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -121,7 +121,7 @@
 }
 
 .philosophy-list .philosophy-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -133,7 +133,7 @@
 }
 
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
 }
@@ -223,7 +223,7 @@
 .image .image-title {
   color: var(--title-text-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;

@@ -175,7 +175,6 @@
 /* ----------------------------Footer nav------------------------ */
 .footer .footer-address {
   color: #ffffff;
-
   font-style: normal;
 }
 
@@ -183,6 +182,7 @@
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
 }
+
 .footer .footer-mail:hover,
 .footer .footer-mail:focus {
   color: var(--accent-color);
@@ -202,16 +202,15 @@
 
 /* -----------------------------Buttons---------------------------- */
 
-.button-list {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-}
-
 .buttons {
   cursor: pointer;
   background-color: #f5f4fa;
-  color: #212121;
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 .buttons:hover,
 .buttons:focus {

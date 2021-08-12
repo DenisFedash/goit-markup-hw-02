@@ -161,6 +161,7 @@
   background-color: #2f303a;
 }
 
+/* -----------------------------Footer logo----------------------- */
 .footer-list .footer-logo {
   color: var(--accent-color);
 
@@ -171,12 +172,16 @@
   color: #ffffff;
 }
 
+/* ----------------------------Footer nav------------------------ */
 .footer .footer-address {
   color: #ffffff;
+
+  font-style: normal;
 }
 
 .footer .footer-mail {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 .footer .footer-mail:hover,
 .footer .footer-mail:focus {
@@ -185,6 +190,7 @@
 
 .footer .footer-tel {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 .footer .footer-tel:hover,
